@@ -2225,6 +2225,42 @@
 			justify-content: flex-end;
 		}
 
+/* Nexgen */
+
+#nexgen {
+	text-align: left;
+}
+
+#nexgen .content {
+	margin-top: -5rem;
+}
+
+#nexgen h2 {
+	margin-bottom: 4rem;
+}
+
+#nexgen h3 {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+#nexgen p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	width: 100%;
+	margin-bottom: 5rem;
+}
+
+#nexgen .flow {
+	display: flex;
+	justify-content: center;
+}
+
+#nexgen .flow img {
+	width: 1000px;
+}
+
 /* Contact */
 
 	#contact {
