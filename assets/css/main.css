@@ -2261,6 +2261,27 @@
 	width: 1000px;
 }
 
+#nexgen .italic {
+	font-style: italic;
+	font-size: 1rem;
+	font-family: "Georgia", sans-serif;
+}
+
+#nexgen .screens {
+  display: flex;
+	justify-content: space-around;
+	width: 1000px;
+	height: auto;
+	padding: 2rem 2rem 2rem 0;
+	margin-left: -8rem;
+	background-color: #F5F5F5;
+}
+
+#nexgen .screens img {
+	width: 250px;
+	margin-left: 2rem;
+}
+
 /* Contact */
 
 	#contact {
