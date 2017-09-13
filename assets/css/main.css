@@ -2285,6 +2285,7 @@
 	font-size: 1.2rem;
 	font-family: "Georgia", sans-serif;
 	text-align: center;
+	/*color: #9E9E9E; */
 }
 
 #nexgen .screens {
@@ -2301,6 +2302,39 @@
 	width: 250px;
 	margin-left: 2rem;
 }
+
+.jimgs {
+	display: flex;
+	justify-content: space-around;
+}
+
+.jimgs img {
+	width: auto;
+	height: 23rem;
+	margin-top: -2rem;
+	margin-bottom: 1rem;
+}
+
+.jambonext {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: black;
+	}
+
+	.jambonext a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.jambonext span:hover {
+	text-decoration: underline;
+	}
+
+	.jambonext span{
+		margin-right: 0.5rem;
+		font-size: 1.5rem;
+	}
 
 /* Contact */
 
