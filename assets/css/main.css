@@ -2303,6 +2303,29 @@
 	margin-left: 2rem;
 }
 
+#nexgen .result_icons {
+  display: flex;
+	justify-content: center;
+	width: 1000px;
+	height: auto;
+	padding: 2rem 2rem 2rem 0;
+	margin-left: -7rem;
+	}
+
+#nexgen .result_icons img {
+	width: 100px;
+	margin-left: 3.5rem;
+}
+
+#nexgen .drawings {
+	display: flex;
+	justify-content: center;
+}
+
+#nexgen .drawings img{
+	width: 60%;
+}
+
 .jimgs {
 	display: flex;
 	justify-content: space-around;
