@@ -2146,6 +2146,19 @@
 		font-size: 1.8rem;
 	}
 
+  #work h2 {
+		margin-bottom: 2rem;
+	}
+
+	#work h3 {
+		font-size: 1.8rem;
+	}
+
+  #work p {
+	  text-align: left;
+		margin-bottom: 1.5rem;
+	}
+
 /* One */
 
 	#one {
