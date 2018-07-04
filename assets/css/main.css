@@ -2170,14 +2170,19 @@ i {
 
 	#work .diamond img {
 		width: 1000px;
+		height: 100%;
 		margin-bottom: 6rem;
 		margin-top: 3rem;
+	}
+
+	#cstudies h2 {
+		text-align: center;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.pn"), url("../../images/nexgenblue.png");
+		background: url("images/overlay.png"), url("../../images/.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2206,7 +2211,7 @@ i {
 /* Two */
 
 	#two {
-		background: url("images/overlay.pn"), url("../../images/signalmapper.png");
+		background: url("images/overlay.png"), url("../../images/.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2240,7 +2245,7 @@ i {
 	/* Three */
 
 		#three {
-			background: url("images/overlay.pn"), url("../../images/jambobanner.png");
+			background: url("images/overlay.png"), url("../../images/.png");
 			background-size: 256px 256px, cover;
 			background-attachment: fixed, fixed;
 			background-position: top left, center center;
@@ -2270,6 +2275,36 @@ i {
 	#three .readmore a {
 		font-size: 1.4rem;
 	}
+
+	/* Four */
+
+		#four {
+			background: url("images/overlay.png"), url("../../images/nexgenblue.png");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
+
+		#four span a {
+			border: solid 1px black;
+			padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+			font-size: 1.2rem;
+			text-decoration: none;
+		}
+
+		#four span a:hover {
+			font-weight: bold;
+			border: solid 2px black
+		}
+
+	  #four p {
+		  margin-bottom: 2.5rem;
+	  }
+
+	  #four .readmore a {
+			font-size: 1.4rem;
+		}
+
 
 /* Nexgen */
 
