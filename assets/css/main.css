@@ -1958,6 +1958,10 @@
 			background-attachment: scroll !important;
 		}
 
+i {
+	margin-top: 20px;
+}
+
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
