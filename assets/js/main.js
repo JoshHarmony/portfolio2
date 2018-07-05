@@ -234,15 +234,28 @@
 
 	});
 
-	$("nav a").on("click", function(e) {
+	$(".home nav a").on("click", function(e) {
 		e.preventDefault();
 		$("nav li.active").removeClass("active");
 		$(this).parent().addClass("active");
 	});
 
 	$(".home-section").waypoint(function(direction) {
-		var id = $(this.element).attr("id");
-		$("a[href=" + id + "]").parent().addClass("active");
+		var sections = ["#intro", "#work", "#process", "#cstudies", "#contact"];
+		var id = '#' + $(this.element).attr("id");
+
+		var activeIndex = sections.indexOf(id);
+
+		if (direction == 'down') {
+			$("nav li.active").removeClass("active");
+			$('nav a[href="' + sections[activeIndex] + '"]').parent().addClass('active');
+		} else if (direction == 'up' && activeIndex !== 0) {
+			$("nav li.active").removeClass("active");
+			$('nav a[href="' + sections[activeIndex - 1] + '"]').parent().addClass('active');
+		}
+
+	}, {
+		offset: '50%'
 	});
 
 })(jQuery);
