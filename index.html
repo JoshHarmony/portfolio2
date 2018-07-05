@@ -23,7 +23,7 @@
 				<h1>Matt Silberstein <span>| UX DESIGNER</span></h1>
 				<nav>
 					<ul>
-						<li><a href="index.html"><strong>Home</strong></a></li>
+						<li class="active"><a href="#intro">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#process">Process</a></li>
 						<li><a href="#cstudies">Work</a></li>
@@ -33,7 +33,7 @@
 			</header>
 
 		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
+			<section id="intro" class="main style1 dark fullscreen home-section">
 				<div class="content">
 					<header>
 						<h2>Hey! I'm Matt</h2>
@@ -48,12 +48,12 @@
 			<!-- Work -->
 				<section id="work" class="main style3 primary">
 					<div class="content">
-						<header id="about">
+						<header id="about" class="home-section">
 							<h2>About</h2>
 							<p>Like many people, I struggled a great deal to find my true calling.
               I tried many different things, from engineering to music, passing through photography, animation, business and game design.<br><br> I stumbled upon the concept of UX design in late 2016 on a online escapade, I was intrigued. The marriage of technology with design, psychology and visuals all applied to making products accessible and enjoyable immediately grabbed my attention. UX felt like an unlikely combination of all my interests, I was hooked!<br><br>
               So far my UX journey has led me to work with the food-tech start up, JAMBO! and with the folks at data crowdsourcing start up OpenSignal.<br> I look forward to keep on learning more and more about this awesome field of work and I’m excited to see what comes next!</p>
-							<h2 id="process" class="process">My Process</h2>
+							<h2 id="process" class="process home-section">My Process</h2>
 							<p>I see my working tools as an extension of my workplace. For this reason I believe that organization and structure are essential to being creative and productive. When creating prototypes and mockups I make sure to organize the content in order to optimize the workflow and make revisions a breeze.</p>
 							<div class="diamond">
               	<img src="./images/diamond.png" alt="Double Diamond process">
@@ -94,7 +94,7 @@
 					</div>
 				</section>
 
-		<div id="cstudies">
+		<div id="cstudies" class="home-section">
 			<h2>Work</h2>
 			<!-- One -->
 				<section id="one" class="main style2 right dark fullscreen">
@@ -132,7 +132,7 @@
 							</header>
 							<p>A concept project via General Assembly.<br> Relay is a platform that allows creatives to colaborate with each other.</p>
 						<div class="readmore">
-							<span><a href="jambo.html">Read more</a></span>
+							<span><a href="#">Read more</a></span>
 						</div>
 						</div>
 						<a href="#work" class="button style2 down anchored">Next</a>
@@ -170,7 +170,7 @@
 			<section class="main style3 secondary">
 				<div class="content">
 					<header>
-						<h2 id="contact">Say Hello!</h2>
+						<h2 id="contact" class="home-section">Say Hello!</h2>
 						<p>Do you think I'm the right fit for your team? Send me a message, lets drink coffee and design things together.</p>
 						<i class="fas fa-coffee"></i>
 					  <p><strong>matsilber@gmail.com</strong></p>
@@ -212,6 +212,7 @@
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/waypoints.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 

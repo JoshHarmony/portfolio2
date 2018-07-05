@@ -1748,7 +1748,8 @@
 						outline: 0;
 					}
 
-          #header nav ul li a:hover {
+          #header nav ul li a:hover,
+					nav li.active a {
 						font-weight: bold;
 					}
 
@@ -2211,7 +2212,7 @@ i {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/.png");
+		background: url("images/overlay.pn"), url("../../images/etsybanner.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2245,7 +2246,7 @@ i {
 	/* Three */
 
 		#three {
-			background: url("images/overlay.png"), url("../../images/.png");
+			background: url("images/overlay.pn"), url("../../images/relaybanner.png");
 			background-size: 256px 256px, cover;
 			background-attachment: fixed, fixed;
 			background-position: top left, center center;
@@ -2279,7 +2280,7 @@ i {
 	/* Four */
 
 		#four {
-			background: url("images/overlay.png"), url("../../images/nexgenblue.png");
+			background: url("images/overlay.pn"), url("../../images/nexgenbig2.png");
 			background-size: 256px 256px, cover;
 			background-attachment: fixed, fixed;
 			background-position: top left, center center;

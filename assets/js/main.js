@@ -234,4 +234,15 @@
 
 	});
 
+	$("nav a").on("click", function(e) {
+		e.preventDefault();
+		$("nav li.active").removeClass("active");
+		$(this).parent().addClass("active");
+	});
+
+	$(".home-section").waypoint(function(direction) {
+		var id = $(this.element).attr("id");
+		$("a[href=" + id + "]").parent().addClass("active");
+	});
+
 })(jQuery);
