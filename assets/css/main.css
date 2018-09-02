@@ -2564,6 +2564,7 @@ text-decoration: underline;
 #etsy .medium a {
 	color: black;
 	font-size: 1.3rem;
+	display: none;
 }
 
 #etsy .medium span {
@@ -2577,6 +2578,72 @@ text-decoration: underline;
 #etsy {
 	/* text-align: center; */
 	padding: 6em 0 3em 0;
+}
+
+#etsy .mobile img {
+	display: none;
+}
+
+@media screen and (max-width: 840px) {
+	.screens img {
+		width: 600px;
+		margin-left: 4em;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.screens img {
+		width: 500px;
+	}
+
+	.overlay1 {
+		display: none;
+	}
+
+	#etsy .medium a {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	#etsy .screens img {
+		display: none;
+	}
+
+	#etsy .mobile img {
+		display: flex;
+		width: 700px;
+		justify-content: center;
+	}
+
+	#etsy p, h2, h4 {
+		text-align: center;
+	}
+
+	#etsy h2 {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	#nexgen .links, #pillar .links, #etsy .links, #relay .links {
+		display: block;
+		flex-direction: column;
+		margin-top: 2em;
+	}
+
+	#etsy .links img {
+		box-shadow: 0 0 10px grey;
+		width: 175px;
+		margin-bottom: 1em;
+		margin-left: 10em;
+	}
+
+	#etsy .links a {
+		opacity: 1;
+		filter: grayscale(0);
+	}
+
 }
 
 /* relay */
@@ -2979,10 +3046,22 @@ h4 {
 	}
 
 	#stash h2 {
-		margin-left: -5em;
+		margin-left: -3.5em;
 		/* margin-left: .3em; */
 		margin-bottom: 1em;
 
+	}
+
+	.title {
+		display: flex;
+		justify-content: flex-start;
+		width: 1000px;
+	}
+
+	#mplay {
+		width: 6%;
+		height: 6%;
+		margin-left: 19em;
 	}
 
 	#stash .threetop {

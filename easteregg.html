@@ -64,7 +64,38 @@
 			<!-- Work -->
 				<section id="stash" class="main style3 primary">
 					<div class="content">
+						<div class="title">
 							<h2>Oh hey, I see you've found my secret stash!</h2>
+							<img id="mplay" src="./images/playbut.png" style="cursor: pointer;" onclick="changeImage();">
+							<audio loop id="audio" src="./Song01.wav">
+								Your browser does not support the audio element.
+							</audio>
+							<script type="text/javascript">
+				// 			document.getElementById("mplay").onclick = function() {
+				//     var audio = document.getElementById("audio");
+				//     if (audio.paused) audio.play();
+				//     else audio.pause();
+				// };
+							function changeImage()
+								{
+								element=document.getElementById('mplay')
+								if (element.src.match("pause"))
+									{
+									element.src="./images/playbut.png";
+									}
+									else
+									{
+									element.src="./images/pausebut.png";
+									}
+								var audio = document.getElementById("audio");
+								if (audio.paused) audio.play();
+								else audio.pause();
+								}
+
+
+								// var audio = new Audio('./Song01.wav'); audio.play();
+							</script>
+						</div>
 							<div class="threetop">
 								<img src="./images/bw1.JPG" alt="">
 								<img src="./images/portrait.png" alt="">
@@ -80,8 +111,8 @@
 								<img src="./images/monster.png" alt="">
 							</div>
 							<div class="pixel">
-								<img src="./images/pixelguy.png" alt="">
-								<img src="./images/pixelcoffee.png" alt="">
+								<img src="./images/pixelguy.gif">
+								<img src="./images/coffeecup.gif" alt="">
 							</div>
 							<div class="sverige">
 								<img src="./images/gburg.png" alt="">
