@@ -2155,7 +2155,7 @@ i {
 		color: rgb(57,69,74);
 	}
 
-	#work{
+	#work {
 		background: url("../../images/objects.png");
 		background-repeat: no-repeat;
 	}
@@ -2197,22 +2197,25 @@ i {
 }
 
 @media screen and (max-width: 1200px) {
-	#work{
+	#work {
 		background: url("../../images/objectsresponsive.png");
 		background-repeat: no-repeat;
 	}
+}
 
 @media screen and (max-width: 1140px) {
 	#work{
 		background: url("../../images/objectsresponsive2.png");
 		background-repeat: no-repeat;
 	}
+}
 
-	@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1070px) {
 		#work{
-			background-image: none;
+			background: none;
 			background-color: white;
 		}
+	}
 
 @media screen and (max-width: 736px) {
 
@@ -2290,7 +2293,6 @@ i {
 	#intro p {
 		font-size: 1.4em;
 	}
-
  }
 
   #one .readmore a {
@@ -2436,7 +2438,7 @@ i {
 	font-family: "Georgia", sans-serif;
 	text-align: center;
 	/*color: #9E9E9E; */
-}
+
 /*
 #nexgen .screens {
   display: flex;
@@ -2755,7 +2757,6 @@ text-decoration: underline;
 		opacity: 1;
 		filter: grayscale(0);
 	}
-
 }
 
 /* relay */
@@ -2868,7 +2869,6 @@ text-decoration: underline;
 		opacity: 1;
 		filter: grayscale(0);
 	}
-
 }
 
 /* nexgen */
@@ -2982,7 +2982,6 @@ text-decoration: underline;
 		opacity: 1;
 		filter: grayscale(0);
 	}
-
 }
 
 /* #nexgen img:hover {
@@ -3283,11 +3282,11 @@ h4 {
 	}
 
 	@media screen and (max-width: 580px) {
-
 		.main.style3.secondary {
 			background: url("../../images/coffeemobile2.png");
 			background-repeat: no-repeat;
 		}
+	}
 
 	.egg {
 		margin-left: 25px;
@@ -3497,7 +3496,6 @@ h4 {
 		height: 350px;
 		margin-left: 1em;
 	}
-
 }
 
 @media screen and (max-width: 580px) {
@@ -3513,9 +3511,8 @@ h4 {
 		width: 7%;
 		height: 7%;
 		margin-left: 6em;
-
 	}
-
+}
 
 		#contact .box {
 			-moz-transition: -moz-transform 1s ease;
@@ -3541,5 +3538,4 @@ h4 {
 			#contact .box {
 				padding-bottom: 2em;
 			}
-
 		}
