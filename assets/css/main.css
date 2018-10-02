@@ -1780,7 +1780,6 @@
 				#header nav {
 					display: none;
 				}
-
 		}
 
 	body {
@@ -1792,7 +1791,6 @@
 			body {
 				padding-top: 2.5em;
 			}
-
 		}
 
 /* Main */
@@ -2155,8 +2153,20 @@ i {
 		color: rgb(57,69,74);
 	}
 
+	@media screen and (max-width: 400px) {
+		#intro {
+			background: url("images/overla.png"), url("../../images/heromatts.png");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
+	}
+
 	#work {
 		background: url("../../images/objects.png");
+		background-size: cover;
+		background-position: top left, bottom center;
 		background-repeat: no-repeat;
 	}
 
@@ -2215,14 +2225,17 @@ i {
 			background: none;
 			background-color: white;
 		}
+		#work p {
+			text-align: center;
+		}
 	}
 
-@media screen and (max-width: 736px) {
+/* @media screen and (max-width: 736px) {
 
 	#work{
 		background: url("../../images/objectsmobile.png");
 		background-repeat: no-repeat;
-	}
+	} */
 
 	#work .diamond img {
 		width: 95%;
@@ -2644,6 +2657,22 @@ text-decoration: underline;
 
 }
 
+@media screen and (max-width: 400px) {
+	#pillar .screens img {
+		width: 350px;
+		margin-left: 1em;
+	}
+
+	#pillar .links img {
+		margin-bottom: 1em;
+		margin-left: 5.6em;
+	}
+	.smallp {
+		font-size: .85em;
+		margin-left: .6em;
+	}
+}
+
 /* etsy */
 
 #etsy {
@@ -2759,6 +2788,21 @@ text-decoration: underline;
 	}
 }
 
+@media screen and (max-width: 400px) {
+	#etsy .mobile img {
+		margin-left: -10em;
+	}
+
+	#etsy .links img {
+		margin-bottom: 1em;
+		margin-left: 5.6em;
+	}
+	.smallp {
+		font-size: .85em;
+		margin-left: .6em;
+	}
+}
+
 /* relay */
 
 #relay {
@@ -2868,6 +2912,21 @@ text-decoration: underline;
 	#relay .links a {
 		opacity: 1;
 		filter: grayscale(0);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#relay .screens img {
+		margin-left: 1em;
+	}
+
+	#relay .links img {
+		margin-bottom: 1em;
+		margin-left: 5.6em;
+	}
+	.smallp {
+		font-size: .85em;
+		margin-left: .6em;
 	}
 }
 
@@ -2981,6 +3040,22 @@ text-decoration: underline;
 	#nexgen .links a {
 		opacity: 1;
 		filter: grayscale(0);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#nexgen .screens img {
+		width: 350px;
+		margin-left: 1em;
+	}
+
+	#nexgen .links img {
+		margin-bottom: 1em;
+		margin-left: 5.6em;
+	}
+	.smallp {
+		font-size: .85em;
+		margin-left: .6em;
 	}
 }
 
@@ -3512,6 +3587,104 @@ h4 {
 		height: 7%;
 		margin-left: 6em;
 	}
+}
+
+@media screen and (max-width: 400px) {
+	.title h2 {
+		font-size: 1.2em;
+	}
+	.title {
+		display: flex;
+		justify-content: flex-start;
+		width: 100%;
+		margin-left: 3.5em;
+	}
+
+	#mplay {
+		width: 10%;
+		height: 10%;
+		margin-left: .8em;
+	}
+
+ #stash .threetop  {
+	 display: inline-block;
+	 width: 40%;
+	 height: 10%;
+	 margin-top: 1em;
+ }
+
+ #stash .threetop img {
+	 padding-bottom: 2em;
+	 margin-left: -7em;
+ }
+
+#stash .wrath {
+	width: 85%;
+}
+
+.wrath img {
+	width: 120%;
+	height: 120%;
+	margin-left: 0;
+}
+
+#stash .doodles {
+	width: 100%;
+	display: flex;
+}
+
+.doodles img {
+	width: 120%;
+	height: 120%;
+	margin-left: -2em;
+}
+
+#stash .monster {
+	width: 100%;
+	display: flex;
+}
+
+.monster img {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+}
+
+#stash .pixel {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 4em;
+}
+
+.pixel img {
+	width: 200px;
+	height: 200px;
+	margin-left: -1em;
+}
+
+#stash .sverige {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 4em;
+}
+
+.sverige img {
+	width: 250px;
+	height: 250px;
+	margin-left: 1em;
+}
+
+#stash .kstad {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 1em;
+}
+
+.kstad img {
+	width: 250px;
+	height: 250px;
+	margin-left: 1em;
+}
 }
 
 		#contact .box {
