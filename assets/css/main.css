@@ -3344,6 +3344,8 @@ h4 {
 
 	.main.style3.secondary {
 		background-image: url("../../images/coffeefooter.png");
+		background-size: cover;
+		background-position: top left, bottom center;
 		background-repeat: no-repeat;
 		text-align: center;
 	}
