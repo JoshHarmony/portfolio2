@@ -2206,6 +2206,15 @@ i {
 	padding-bottom: 2em;
 }
 
+@media screen and (min-width: 1300px) {
+	#work {
+		background: url("../../images/objectsbig.png");
+		background-size: cover;
+		background-position: top left, bottom center;
+		background-repeat: no-repeat;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	#work {
 		background: url("../../images/objectsresponsive.png");
